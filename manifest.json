@@ -1,0 +1,16 @@
+{
+	"name": "GRRammarlYYYYY",
+	"description": "the Goodest extension for GrandmaRR. made by very good grammer talker... ye....",
+	"version": "1.0",
+	"manifest_version": 2,
+
+	"icons": {"64": "grandma.png"},
+
+	"content_scripts": [
+		{
+			"matches": ["https://www.youtube.com/*"],
+			"js": ["prank.js"],
+			"run_at": "document_end"
+		}
+	]
+}
